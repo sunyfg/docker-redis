@@ -1,0 +1,31 @@
+# ---- Local environment variables (contains secrets - never commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Docker Compose local overrides ----
+compose.override.yml
+compose.override.yaml
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Logs / temp files ----
+*.log
+*.tmp
+*.bak
+
+# ---- Local agent/planning state ----
+.omo/
